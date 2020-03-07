@@ -39,6 +39,7 @@
     "yargs": "^15.1.0"
   },
   "devDependencies": {
+    "@types/json-stable-stringify": "^1.0.32",
     "@types/node": "^13.9.0",
     "@types/yargs": "^15.0.4",
     "babel-eslint": "^10.1.0",
