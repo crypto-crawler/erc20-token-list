@@ -1,0 +1,58 @@
+{
+  "name": "erc20-token-list",
+  "version": "0.0。1",
+  "description": "List of all ERC20 tokens.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": "cli.js",
+  "files": [
+    "cli.js",
+    "index.js",
+    "index.d.ts",
+    "tokens.json"
+  ],
+  "scripts": {
+    "start": "node ./index.js",
+    "lint": "eslint . --ext '.js,.jsx,.ts,.tsx,.md'",
+    "prettier": "prettier -c --write '**/*'",
+    "check-type": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulmachine/erc20-token-list.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "blockchain"
+  ],
+  "author": "soulmachine",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/soulmachine/erc20-token-list/issues"
+  },
+  "homepage": "https://github.com/soulmachine/erc20-token-list",
+  "dependencies": {
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "@types/yargs": "^15.0.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-markdown": "^1.0.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "ethers": "^4.0.45",
+    "json-stable-stringify": "^1.0.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}

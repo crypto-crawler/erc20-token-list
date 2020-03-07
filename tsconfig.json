@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true /* Enable all strict type-checking options. */,
+    "target": "es2019",
+    "lib": ["es2019"]
+  },
+  "include": ["**/*.js"],
+  "exclude": ["node_modules", "dist", "**/*.spec.js"]
+}
