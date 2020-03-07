@@ -1,6 +1,6 @@
 {
   "name": "erc20-token-list",
-  "version": "0.0。1",
+  "version": "0.0.1",
   "description": "List of all ERC20 tokens.",
   "main": "index.js",
   "types": "index.d.ts",
