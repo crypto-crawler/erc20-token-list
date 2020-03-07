@@ -12,4 +12,4 @@ export interface TokenInfo {
  * @param symbol The token symbol, e.g., USDT, BNB, LINK, etc.
  * @returns The TokenInfo, undefined if not exists
  */
-export declare function getTokenInfo(symbol: string): TokenInfo;
+export declare function getTokenInfo(symbol: string): TokenInfo | undefined;
