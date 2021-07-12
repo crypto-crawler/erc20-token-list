@@ -84,7 +84,7 @@ const files = fs.readdirSync(erc20Dir);
 /** @type {Object.<string, any>} */
 const result = {};
 
-files.forEach(file => {
+files.forEach((file) => {
   const absolutePath = path.join(erc20Dir, file);
   const obj = JSON.parse(fs.readFileSync(absolutePath, 'utf8'));
 
@@ -110,5 +110,5 @@ files.forEach(file => {
   result[obj.symbol] = obj;
 });
 
-console.info('Writing to file list.json');
+console.info('Writing to file tokens.json');
 fs.writeFileSync('tokens.json', stringify(result, { space: 2 }));
